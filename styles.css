@@ -3,15 +3,28 @@ h1 {
   font-size: 200%;
   margin-left: 20px;
 }
+
 p {
   font-family: arial;
 }
+
 p.new {
   text-align:center;
 }
+
 p.new2 {
-  margin-left: 20px;
+  margin-left: 28px;
 }
+
+p.new3 {
+  margin-left: 50px;
+}
+
+pre {
+    font-family: times;
+    line-height: 1.4;
+}
+
 a {
   font-family: arial;
 }
@@ -27,31 +40,30 @@ hr {
 }
 
 body {
-    background-image: url('https://images.assetsdelivery.com/compings_v2/malija/malija1605/malija160500008.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url('https://images.assetsdelivery.com/compings_v2/malija/malija1605/malija160500008.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 a:link {
   color: #6DA9E8;
-  background-color: transparent;
 }
 
 a:visited {
   color: #6DA9E8;
-  background-color: transparent;
 }
 
 pre {
-    margin-left: 20px;
+  margin-left: 20px;
+  align:center;
 }
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 80px;
 }
 
 table, th, td {
@@ -60,4 +72,8 @@ table, th, td {
 }
 th, td {
   padding: 5px;
+}
+
+ul {
+  padding-left: 0px;
 }
