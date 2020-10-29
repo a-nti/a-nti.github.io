@@ -1,0 +1,63 @@
+h1 {
+  font-family: helvetica;
+  font-size: 200%;
+  margin-left: 20px;
+}
+p {
+  font-family: arial;
+}
+p.new {
+  text-align:center;
+}
+p.new2 {
+  margin-left: 20px;
+}
+a {
+  font-family: arial;
+}
+
+abbr[title] {
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
+}
+
+hr {
+  border: 1px dashed #6DA9E8;
+}
+
+body {
+    background-image: url('https://images.assetsdelivery.com/compings_v2/malija/malija1605/malija160500008.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a:link {
+  color: #6DA9E8;
+  background-color: transparent;
+}
+
+a:visited {
+  color: #6DA9E8;
+  background-color: transparent;
+}
+
+pre {
+    margin-left: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
